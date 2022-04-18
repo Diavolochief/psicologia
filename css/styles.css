@@ -176,6 +176,7 @@ nav{
     text-align: center;
     font-size: 18px;
     margin: auto;
+    margin-bottom:50px;
 }
 .footere{
     background-color: black;
@@ -233,17 +234,63 @@ border-radius: 3px;
     width: 95%;
     margin: auto;
     margin-top: 50px;
+   
+}
+.cuadrado>img{
+    width: 470px;
+    height: 350px;
+    border-radius:3%;
 }
 
-@media (max-width:1328px) {
-    .colum{
-        width: 45%;
-        margin-bottom: 20px;
-    }
+
+.cuadrado{
+   display: grid;
+   grid-template-columns: 470px 470px;
+   grid-template-rows: 350px 350px;
+   justify-content: center;
+   padding: 5px;
+   border-style: solid;
+   border-color: rgba(100, 100, 100, 0.749);
+   margin-left: 470px;
+   margin-right: 460px;
+   box-shadow: 10px 10px rgb(232, 163, 207, 0.801);
+
+
 }
+.cuadrado>:hover{
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 380px 380px;
+    justify-content: center;
+    gap: 12px;
+    transition: 1.5s;
+    
+}
+    
+ .cuadrado>img:hover{
+    width: 500px;
+    height: 380px;
+    border-radius:3%;
+    transition: 1.5s;
+    z-index: 1; 
+}
+
+
+.carrusell{
+    margin-top: 50px;
+    margin-bottom: 50px;
+     
+
+}
+
+
 
 
 @media (max-width:600px) {
+    .cuadrado{
+        border: none;
+        box-shadow: none;
+    }
     .contenedor figure img{
         width: 100%;
         height: 400px;
@@ -323,4 +370,47 @@ padding-top:47px;
     display:none;
      
 }
+
+.cuadrado>img{
+    height: 150px;
+    width: 200px;
+    border-radius:3%;
+   border-style: solid;
+   border-color: rgba(100, 100, 100, 0.749);
+   box-shadow: 10px 10px rgb(232, 163, 207, 0.801);
+  
+  
+  
+}
+
+
+.cuadrado{
+   display: grid;
+   grid-template-columns: 200px 200px;
+   grid-template-rows: 150px 150px 150px 150px;
+   justify-content: center;
+   margin: auto;
+   padding: 1px;
+   row-gap: 20px;
+   column-gap: 20px;
+
+}
+.cuadrado>:hover{
+    display: grid;
+    grid-template-columns: 200px ;
+    grid-template-rows: 150px 150px 150px 150px;
+    transition: 1.5s;
+    
+}
+    
+ .cuadrado>img:hover{
+    width: 200px;
+    height: 150px;
+    border-radius:3%;
+    transition: 1.5s;
+    z-index: 1;
+    
+    
+} 
+
 }
