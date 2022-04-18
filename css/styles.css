@@ -287,6 +287,11 @@ border-radius: 3px;
 
 
 @media (max-width:600px) {
+    .carrusell{
+        margin-top: 0px;
+         
+    
+    }
     .cuadrado{
         border: none;
         box-shadow: none;
@@ -372,8 +377,8 @@ padding-top:47px;
 }
 
 .cuadrado>img{
-    height: 150px;
-    width: 200px;
+    height: 50px;
+    width: 100px;
     border-radius:3%;
    border-style: solid;
    border-color: rgba(100, 100, 100, 0.749);
@@ -386,26 +391,26 @@ padding-top:47px;
 
 .cuadrado{
    display: grid;
-   grid-template-columns: 200px 200px;
-   grid-template-rows: 150px 150px 150px 150px;
+   grid-template-columns: 100px 100px;
+   grid-template-rows: 50px 50px 50px 50px;
    justify-content: center;
    margin: auto;
-   padding: 1px;
-   row-gap: 20px;
-   column-gap: 20px;
 
-}
+   row-gap: 10px;
+   column-gap: 10px;
+
+}   
 .cuadrado>:hover{
     display: grid;
-    grid-template-columns: 200px ;
-    grid-template-rows: 150px 150px 150px 150px;
+    grid-template-columns: 100px 100px ;
+    grid-template-rows: 50px 50px 50px 50px;
     transition: 1.5s;
     
 }
     
  .cuadrado>img:hover{
-    width: 200px;
-    height: 150px;
+    width: 100px;
+    height: 50px;
     border-radius:3%;
     transition: 1.5s;
     z-index: 1;
