@@ -63,7 +63,9 @@ nav{
         padding: 16px;
     color: white;
     }  
-    
+    .no_visi{
+    display: none;
+    }
 .mapp{
    
     padding: 10px;
@@ -179,7 +181,7 @@ nav{
     background-color: black;
   display: flex;
   justify-content: space-around;
-
+padding: 70px;
    
 
 }
@@ -304,8 +306,21 @@ border-radius: 3px;
     height: 250px;
     background-image: linear-gradient(to top, rgba(185, 165, 176, 0.623) 0%, rgba(232, 163, 207, 0.801) 100%),
     url(../img/alicia-christin-gerald-zm4CcBeBbp8-unsplash.jpg);
+    
     background-attachment: fixed;
     background-repeat: no-repeat;   
-
+    
+}
+.no_visi{
+ display: block;
+height: 150px;
+ width: 80px;
+ margin: auto;
+padding-top: 70px;
+ 
+}
+.logos{
+    display:none;
+     
 }
 }
